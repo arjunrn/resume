@@ -2,3 +2,5 @@
 *.log
 *.out
 .texpadtmp/*
+
+combined/*.tex
