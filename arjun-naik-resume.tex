@@ -48,11 +48,9 @@ Germany
 
 \vspace{-1.3em}  % some vertical spacing
 \begin{multicols}{2}  % open a multicolumn environment
-\noindent \emph{An organised, meticulous, and resourceful software engineering with a focus on building distributed systems.}
+\noindent \emph{A software/devops engineer with a focus on reliability and performance of distributed systems.}
 \\
-After obtaining a Bachelor's degree in Computer Science and Engineering I spent a year working at a consultancy. Here I got my first experience of participating in large projects and the responsibilities that come along with it. After that I moved to a startup where I built web applications and started developing Android apps. After working for 2 years in the industry I decided to continue my education in Germany. Studying at TU Dresden in the Systems Engineering chair has given me a unique opportunity to participate is several diverse research projects. Today I'm working with large distributed infrastructures and particularly focussed on issues like performance and reliability. Today I work in the Site Reliability Engineering team at Zalando SE.
-
-My goal is to work in an environment which fosters creativity and offers interesting challenges. Since I am a big proponent of open-source, I also wish that my work both utilises and contributes back to the community.
+In 2010 after completing a Bachelor's degree in Computer Science I started working as a software Developer in a startup. I worked with diverse technologies and built applications for several platforms. But I always enjoyed working on the automation and infrastructure for those application. In 2012 I decided to continue my education in Germany. Studying at TU Dresden in the Systems Engineering chair gave me a unique opportunity to participate is several research projects and revisit the fundamentals of Distributed Sytems. After graduating in 2015 I decided to build my career as a Site Reliabiltiy Engineer. My goal is to work in an environment which fosters creativity and offers interesting challenges. Since I am a big proponent of open-source, I also wish that my work both utilises and contributes back to the opensource community.
 
 \end{multicols}
 
@@ -68,9 +66,11 @@ My goal is to work in an environment which fosters creativity and offers interes
  {\acr{Site Reliability Engineer}}
  {August 2015 - Current}
  {\bodytext{
-    Zalando SE is the largest e-commerce retailer in Europe. The tech stack is complex and diverse. I was hired as part of the SRE team which would assist other teams in the migration of the monolith in the datacenter to microservices in the cloud.My responsibility was the performance and reliability analysis of these new microservices. For this I designed a load test process along with monitoring. Analyses the performance of microservices under different loads. Assisted teams in choosing the right scaling strategies.
+      Zalando SE is the largest e-commerce retailer in Europe. I was hired as part of the SRE team which would assist the feature teams in the migration of a monolithic codebase to microservices in the cloud. During this process of migration we assisted teams in automating their deployments, instrumenting their applications for monitoring and performed load test to verify that the newly built services could satisy the performance and scaling requirements. 
+      
+      I was later moved to the Personalization department where I worked with the Recommendations team to deliver personalized item recommendations with strong Service Level Objectives. I continued automating the deployments of the their infrastructure and wrote other automation to manage their datastores like Elasticsearch and Cassandra. I also introduced monitoring for visualizing and observing the performance of various stages of the recommendations pipeline.
 	}
-	\textbf{Technologies Used:} Simian Army, AWS, locust, Flask, Swagger, AppDynamics.
+	\textbf{Technologies Used:} AWS, locust, Spring Boot, Kubernetes, Elasticsearch, Cassandra.
 	}
 }
 
@@ -82,9 +82,9 @@ My goal is to work in an environment which fosters creativity and offers interes
  {\acr{Wissenschaftliche Hilfskraft}}
  {Mar 2014 - Dec 2014}
  {\bodytext{
-As a part of the {\href{http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/sysa/se/srex}{SREX(Secure Remote Execution)}} project developed a translator for C programs. A source C program is translated into a subset of C which can be encoded with redundant operations to ensure correct execution even in the event of bit-flips or other random transient errors.
+As a part of the {\href{http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/sysa/se/srex}{SREX(Secure Remote Execution)}} project I developed a translator for C programs which added redundancy to regular x86 instructions to detect and correct transient errors in memory and computation.
 
-More recently I have been working with distributed coordination services like ZooKeeper and Consul. I have been evaluating the efficacy and characteristics of the respective protocols(ZAB and Raft). Also implementing new features in Kazoo, a Python client library for Zookeeper.
+I also worked with consensus services like ZooKeeper and Consul to evalute their runtime characteristics. I also implemented several new prototype features for a ZooKeeper client library.
 	}
 	\textbf{Technologies Used:} Python, Fabric, Apache ZooKeeper, C/C++, Scons, Consul, Mercurial
 	}
@@ -98,9 +98,7 @@ More recently I have been working with distributed coordination services like Zo
  {\acr{Application Developer}}
  {Jan 2013 - March 2014}
  {\bodytext{
-    DMFS develops data sync applications for the Android platform. I worked on the development of the {\href{https://play.google.com/store/apps/details?id=org.dmfs.tasks}{Tasks}} app which uses the CalDav protocol to sync calendar data. This app was subsequently open-sourced and available on {\href{https://github.com/dmfs/tasks}{Github}}.Was also part of the team which developed an Android based {\href{https://play.google.com/store/apps/details?id=com.schedjoules.calstore}{Calendar Store}}.
-
-    But my primary role was as a Django developer. Developed a web service for the bulk-retail of mobile apps. The service used OpenSSL cryptography to sign and verify the source of the sold apps. Only apps with a valid key issued from the website could be activated. Also developed the Android SDK which integrates with existing third-party apps to provide this functionality.
+    My primary role was as a Python backend developer. I developed a web based platform for the bulk retail of mobile apps. The service used OpenSSL to sign packaged apps and verified the source of the app sold through the platform. Also developed the Android SDK which integrates with existing third-party apps to provide this functionality. This also included the task of building and maintaining the infrasturcture for deploying and running the platform. 
 	}
 	\textbf{Technologies Used:} Python, Android, Django, OpenSSL, PostgreSQL, Git
 	}
@@ -114,9 +112,8 @@ More recently I have been working with distributed coordination services like Zo
  {\acr{Web and Mobile Developer}}
  {Jun 2011 - August 2012}
  {\bodytext{
- When I joined Locus Labs it was an unseeded startup which developed apps for the up-scale and savvy shopper. The main product {\href{http://www.notikum.com}{Notikum}} finds offers and bargains for shoppers based on their profile. This involved collecting data from hundreds of websites. Joined the team which scraped the data and indexed it with Solr. Concurrently developed and maintained the website for this service. The surge in mobile apps necessitated that an Android app be developed which I initially managed and later coordinated with new hires.
-
-After the startup pivoted was given further responsibilities. I was put in charge of the development of the new product {\href{http://www.notiphi.com}{Notiphi}}. Location based advertising was the primary goal of this service. Designed and implemented the initial prototype. Also developed the tools needed for the deployment and monitoring of the cloud-based infrastructure. Leveraged my previous Android experience to develop the Android SDK which is used by third-party developers to integrate this service into their apps.}
+  Locus Labs was an early stage startup for providing location based advertising and services through mobile applications. Being one of the first developers meant I had to manage several resposibilities, from building the backend services, tinkering with the frontend code and also maintaing the deployment pipelines to make releases.
+ }
 	\textbf{Technologies Used:} Django, Python, Android, Tornado, Fabric, Scrapy, Javascript, JQuery, MySQL, MongoDB, Redis, Git
 	}
 }
@@ -138,7 +135,6 @@ After the startup pivoted was given further responsibilities. I was put in charg
   \emph{Please consult my \href{https://de.linkedin.com/in/arnaik}{LinkedIn Profile} for references.}
 \end{center}
 
-
 \spacedhrule{-0.2em}{-0.4em}
 
 \roottitle{Education}
@@ -150,7 +146,7 @@ After the startup pivoted was given further responsibilities. I was put in charg
     {Master of Science, Distributed Systems Engineering}
     {2012 -- 2014}
     {\bodytext{
-        Completed courses in Security and Cryptography, Software Fault Tolerance and Dependable Systems besides the mandatory courses. Also worked in the Systems Engineering Lab and Software Fault Tolerance Lab. Under the guidance of Prof. Dr. Christof Fetzer completed my Master's Thesis in Zookeeper scaling. The proposed solution partitions the namespace which increases the throughput and avoids the negative effects of horizontal scaling.}
+        Completed courses in Security and Cryptography, Software Fault Tolerance and Dependable Systems. Also worked in the Systems Engineering Lab and Software Fault Tolerance Lab. Under the guidance of Prof. Dr. Christof Fetzer completed my Master's Thesis in scaling Zookeeper. The thesis proposed a solution which partitioned the Zookeeper FS namespace to shard the data and increase the throughput by reducing the overhead of the consensus algorithm.}
     }
 }
 
@@ -161,48 +157,16 @@ After the startup pivoted was given further responsibilities. I was put in charg
     {Bachelor of Computer Science and Engineering}
     {2006 -- 2010}
     {\bodytext{
-        Major in Computer Science with a focus on Computer Architecture. Was also an editor of the departmental newsletter and a regular contributor. For my final year project developed a Wi-Fi enabled robot which could be controlled over the Internet. It also had a plethora of sensors which guided in navigation and control.}
+        Major in Computer Science with a focus on Computer Architecture. Was also an editor of the departmental newsletter and a regular contributor. For my final year project developed a Wi-Fi enabled robot which could be controlled over the Internet.}
     }
 }
 
 \spacedhrule{1.6em}{-0.4em}
 
-\roottitle{Projects}
-
-\headedsection{
-{\href{http://se.inf.tu-dresden.de/pubs/papers/Wamhoff2014a.pdf}{JoQuer: Turbo frequency scaling libraries}}
-}
-{\bodytext{Current generation processors like the Intel Haswell series have the ability to temporarily boost the clock frequency through software. A C++ library was developed at the Systems Engineering chair at TU Dresden to provide this functionality to applications and manage the application threads. I constructed a Java library with a similar API. The library used JNI(Java Native Interface) to interact with the C++ library. After the library was implemented, benchmarked and recorded the results to compare the effect of boosting frequency in Java applications.}
-}
-
-\headedsection{Studybloxx: Android list sync application
-{\href{https://github.com/arjunrn/studybloxx-server}{(https://github.com/arjunrn/studybloxx-server)}}
-}
-{\bodytext{For a course in Mobile Application Development my team developed an application for Android which syncs relational data across devices. The sync is performed through a Django web server using a \acr{REST API}. To further improve the application functionality LibGit2 was cross-compiled to run on Android and sync data. Git is used to handle the issues arising out of concurrent modification of data from multiple sources.}
-}
-
-\spacedhrule{0.5em}{-0.4em}
-
 \roottitle{Skills}
 
 \inlineheadsection  % special section that has an inline header with a 'hanging' paragraph
-  {Technical Specialities:}
-  {Good skills in Python, Java, Javascript. Can also program in C/C++. Most experience with Python. Interested in using Go language in a professional setting. Version Control Systems: Git, Mercurial and SVN. Experience with developing Android applications. Also used and configured databases like MySQL, PostgreSQL, MongoDB and Redis. For the past 6 years have been using Linux both on servers and on desktops.
-
-}
-
-\inlineheadsection
-  {Natural Languages:}
-  {English \emph{(Bilingual Proficiency)}, Hindi \emph{(Native)}, Kannada \emph{(Native)},German \emph{(Limited proficiency)}.}
-
-
-\spacedhrule{1.6em}{-0.4em}
-
-\roottitle{Interests}
-
-\inlineheadsection
-  {Non-exhaustive and in no particular order:}
-  {Science-Fiction, photography, hardware hacking, travelling, good coffee}
-
+  {Technical Skills:}
+    {Since I come from a Software Development background I have extensive experience with programming in Python. I have also developed and maintained large Java backend services. I have been using Go for some time but consider myself a beginner. For the past of couple of years I have been building infrasture in AWS. More recently I have started working with Kubernetes and Terraform for deployment of 12-factor apps. I have used several continuous delivery tools like Jenkins, Gitlab-CI and GoCD for building deployment pipelines and other automation tasks.}
 
 \end{document}
