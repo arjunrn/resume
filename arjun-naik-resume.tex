@@ -29,8 +29,7 @@
 % \href well..
 % \\ breaks the line into a new paragraph
 \noindent\href{mailto:Arjun.RN@gmail.com}{Arjun.RN\mbox{}@\mbox{}gmail.com}\sbull
-\textsmaller{+}49.17657886406
-\sbull arjun-naik \emph{(Skype)}
+\textsmaller{+}49-176-5788-6406
 \\
 \sbull
 \href{https://de.linkedin.com/in/arnaik}{https://de.linkedin.com/in/arnaik}
@@ -47,21 +46,40 @@ Germany
 \roottitle{Summary}  % a root section title
 
 \vspace{-1.3em}  % some vertical spacing
-\begin{multicols}{2}  % open a multicolumn environment
-	\noindent \emph{An experienced software engineer with a background in
-	infrastructure and its automation.}
-	\\
-	Arjun has a Master's degree in Distributed Systems Engineering for the
-	Technical University of Dresden. A software engineer at heart he is also
-	deeply interested in building tools and infrastructure for large systems
-	where automation is key.  He likes to work in an environment which fosters
-	creativity and offers interesting challenges.
 
+\begin{multicols}{2}  % open a multicolumn environment
+	Software engineer with 10+ years of experience in e-commerce and
+	foundational systems. Has a passion for building features and functionality
+	with a focus on reliability, scalability and maintainability. Established
+	record of collaboration on large projects, mentorship of junior and
+	mid-level engineers. Looking for positions in teams building critical
+	systems with high performance, reliability requirements like security,
+	infrastructure.
 \end{multicols}
 
 \spacedhrule{0em}{-0.4em}
 
 \roottitle{Experience}
+
+\headedsection
+{\href{https://deliveryhero.com/}{Delivery Hero}}
+{\textsc{Berlin, Germany}}
+{
+	\headedsubsection
+	{\acr{Staff Software Engineer - Global Developer Platform}}
+	{Jun 2021 - Current}
+	{\bodytext{
+			Developed a cluster lifecycle and fleet management solutions for
+			the new Global Developer Platform. Maintainence and steering of the
+			self-service deployment tooling for users of the platform.
+			contributions to upstream AWS projects for managing AWS resources
+			through Kubernetes resources. Mentoring of engineers, design of
+			systems in the domain and collaboration with other domains and
+			entities.
+		}
+		\textbf{Technologies Used:} Go, Kubernetes, AWS controllers for Kubernetes, Open Application Model.
+	}
+}
 
 \headedsection
 {\href{https://redhat.com/}{Red Hat}}
@@ -72,9 +90,9 @@ Germany
 	{Jun 2021 - Current}
 	{\bodytext{
 			Developement of operators to extend the functionality of the
-			OpenShift Container Platform through operators. Adding new features
-			to the core OpenShift platform in the areas of networking and
-			authentication and cluster upgrades.
+			OpenShift Container Platform through CRDs and controllers. Adding
+			new features to the core OpenShift platform in the areas of
+			networking and authentication and cluster upgrades.
 		}
 		\textbf{Technologies Used:} Go, OpenShift, controller-runtime, kubebuilder
 	}
@@ -95,6 +113,7 @@ Germany
 		\textbf{Technologies Used:} Go, OpenShift, Prometheus, controller-runtime, kubebuilder
 	}
 }
+
 \headedsection
 {\href{https://zalando.de/}{Zalando SE}}
 {\textsc{Berlin, Germany}}
@@ -104,16 +123,16 @@ Germany
 	{Aug 2018 - June 2020}
 	{\bodytext
 		{
-			Provide Kubernetes clusters and CI/CD integration to feature teams
+			Provided Kubernetes clusters and CI/CD integration to feature teams
 			in Zalando to deploy their applications. Monitoring and upgrading
 			the clusters so that teams can benefit from improved security and
 			reliability.  Development of internal and opensource tooling for
 			cluster users to deploy their applications seamlessly and perform
 			application deployments with advanced features like pre-scaling,
 			blue-green deployments and easy rollbacks. Improved autoscaling
-			controllers in the clusters so that user workloads can scale both
-			vertically and horizontally. Occasional contributions to upstream
-			Kubernetes open source projects.
+			controllers in upstream Kubernetes projects so that user workloads
+			can scale both vertically and horizontally. Other contributions to
+			upstream Kubernetes open source projects.
 		}
 		\textbf{Technologies Used:} AWS, Go, Kubernetes, Ubuntu.
 	}
@@ -140,25 +159,24 @@ Germany
 {\textsc{Berlin, Germany}}
 {
 	\headedsubsection
-	{\acr{Site Reliability Engineer}}
+	{\acr{Software Engineer SRE}}
 	{August 2015 - December 2017}
 	{\bodytext{
-			I was hired as part of the SRE team which would assist the feature
-			teams in the migration of a monolithic codebase to microservices in
-			the cloud. During this process of migration we assisted teams in
-			automating their deployments, instrumenting their applications for
-			monitoring and performed load test to verify that the newly built
-			services could satisy the performance and scaling requirements.  I
-			was later moved to the Personalization department where I worked
-			with the Recommendations team to deliver personalized item
-			recommendations with Service Level Objectives(SLOs). I continued
-			automating the deployments of the their infrastructure and wrote
-			other automation to manage their datastores like Elasticsearch and
-			Cassandra. I also introduced monitoring for visualizing and
-			observing the performance of various stages of the recommendations
-			pipeline.
+			Part of the SRE team which worked with the feature teams in the
+			migration of a monolithic codebase to microservices in the cloud.
+			During this process of migration assisted teams in automating their
+			deployments, instrumenting their applications for monitoring and
+			performed load test to verify that the newly built services could
+			satisy the performance and scaling requirements. Later moved to the
+			Personalization department where I worked with the Recommendations
+			team to deliver personalized item recommendations with Service
+			Level Objectives(SLOs). Automating the deployments of the their
+			infrastructure and implemented controllers and tooling to manage
+			their datastores like Elasticsearch and Cassandra. Introduced
+			monitoring for visualizing and observing the performance of various
+			stages of the recommendations pipeline.
 		}
-		\textbf{Technologies Used:} AWS, locust, Spring Boot, Kubernetes,
+		\textbf{Technologies Used:} Go, Java, AWS, locust, Spring Boot, Kubernetes,
 		Elasticsearch, Cassandra.
 	}
 }
@@ -173,12 +191,12 @@ Germany
 	{\bodytext{
 			As a part of the
 			{\href{http://tu-dresden.de/die_tu_dresden/fakultaeten/fakultaet_informatik/sysa/se/srex}{SREX(Secure
-			Remote Execution)}} project I developed a translator for C programs
+			Remote Execution)}} project developed a translator for C programs
 			which added redundancy to regular x86 instructions to detect and
-			correct transient errors in memory and computation.  I also worked
+			correct transient errors in memory and computation.  Also worked
 			with consensus services like ZooKeeper and Consul to evalute their
-			runtime characteristics. I also implemented several new prototype
-			features for a ZooKeeper client library.
+			runtime characteristics. Implemented several new prototype features
+			for a ZooKeeper client library.
 		}
 		\textbf{Technologies Used:} Python, Fabric, Apache ZooKeeper, C/C++,
 		Scons, Consul, Mercurial
@@ -193,14 +211,13 @@ Germany
 	{\acr{Application Developer}}
 	{Jan 2013 - March 2014}
 	{\bodytext{
-			My primary role was as a Python backend developer. I developed a web
-			based platform for the bulk retail of mobile apps. The service used
-			OpenSSL to sign packaged apps and verified the source of the app
-			sold through the platform. Also developed the Android SDK which
-			integrates with existing third-party apps to leverage this
-			functionality. This also included the task of building and
-			maintaining the infrasturcture for deploying and running the
-			platform.
+			Developed a web based platform for the bulk retail of mobile apps.
+			The service used OpenSSL to sign packaged apps and verified the
+			source of the app sold through the platform. Also developed the
+			Android SDK which integrates with existing third-party apps to
+			leverage this functionality. This also included the task of
+			building and maintaining the infrasturcture for deploying and
+			running the platform.
 		}
 		\textbf{Technologies Used:} Python, Android, Django, OpenSSL,
 		PostgreSQL, Git
@@ -216,10 +233,10 @@ Germany
 	{Jun 2011 - August 2012}
 	{\bodytext{
 			Locus Labs was an early stage startup for providing location based
-			advertising and services through mobile applications. Being one of
-			the first developers meant I had to manage several resposibilities,
-			from building the backend services, tinkering with the frontend code
-			and also maintaing the deployment pipelines to make releases.
+			advertising and services through mobile applications. Had to manage
+			several resposibilities, from building the backend services,
+			tinkering with the frontend code and also maintaing the deployment
+			pipelines to make releases.
 		}
 		\textbf{Technologies Used:} Django, Python, Android, Tornado, Fabric,
 		Scrapy, Javascript, JQuery, MySQL, MongoDB, Redis, Git
@@ -235,11 +252,11 @@ Germany
 	{Oct 2010 - May 2011}
 	{\bodytext{
 			Netbramha Studios is a design consultancy which develops aesthetic
-			and content intensive websites. I was hired to handle the technical
-			aspects: Maintenance of websites and minor front-end development. I
-			also built websites using both third-party and in-house server
-			frameworks. Used JQuery for front-end development and also did some
-			basic layout and styling with \acr{HTML+CSS}.
+			and content intensive websites. Handled the technical aspects list
+			aaintenance of websites and minor front-end development. Also built
+			websites using both third-party and in-house server frameworks.
+			Used JQuery for front-end development and also did some basic
+			layout and styling with \acr{HTML+CSS}.
 		}
 		\textbf{Technologies Used:} PHP, CodeIgniter, CakePHP, JQuery,
 		Javascript, Python, Django, SVN, Git}
@@ -294,7 +311,7 @@ Germany
 {Technical Skills:}
 {
   Software design and architecture, Linux internals(particularly containers and
-  networking), databases, strong background with operations. Proficient in Go
-  and Python with some background in Java and C/C++.
+  networking), databases, REST APIs. Proficient in Go and Python with some
+  background in Java and C/C++.
 }
 \end{document}
