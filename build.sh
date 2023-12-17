@@ -18,10 +18,10 @@ fi
 # 2. Make combined versions
 mkdir -p combined
 for f in *-resume.tex; do
-  sed '/\\include{resume-commands}/{
+  gsed '/\\include{resume-commands}/{
     s/\\include{resume-commands}//g
     r resume-commands.tex
   }' $f > combined/$f;
-  sed -i '1i%%%% GENERATED FILE - MODIFICATIONS MAY BE LOST %%%%' combined/$f;
+  gsed -i '1i%%%% GENERATED FILE - MODIFICATIONS MAY BE LOST %%%%' combined/$f;
   echo; echo "build.sh: combined/$f generated"; echo;
 done
